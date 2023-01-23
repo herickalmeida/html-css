@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            font-family: 'Work Sans';
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            medida de fonte: px, em
+            16px geralmente = 1em
+            */
+            /* lighter normal bolder */
+            font-size: 1em;
+          
+
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family */
+
+        }
+        h1 {
+            /*
+            font-family: 'Work Sans';
+            font-weight: bold;
+            font-size: 2em;
+            font-style: italic;
+            */
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans';
+        }
+        h2 {
+            font: bold 2em 'Work Sans'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolor dolorem, commodi corporis ab exercitationem temporibus impedit aut, eaque expedita a nisi iste fugit reiciendis facilis eum iusto quisquam itaque?
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus illum repudiandae incidunt fugiat laborum eos, dicta ducimus blanditiis facilis nostrum ipsum similique accusantium modi minima voluptates distinctio dignissimos adipisci nam. LORE</p>
+    <h2>subtítulo do texto</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem error eveniet alias accusantium praesentium corporis sed magnam dolor laudantium. Cupiditate, sint. Autem recusandae dolore natus nisi reiciendis deleniti, atque sunt.</p>
+</body>
+</html>
